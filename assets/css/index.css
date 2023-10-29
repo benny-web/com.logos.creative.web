@@ -168,7 +168,11 @@ footer p {
 
     /* header: img .header-container, .title-menu, .nav-container */
     header > img { width: 80%; }
-    .header-container > .marquee-text { font-size: 0.9rem; }
+    .header-container > .marquee-text {
+        font-size: 0.9rem;
+        margin-top: 3px;
+    }
+    
     .title-menu > h1 {
         font-size: 1.35rem;
         justify-self: start;
